@@ -217,25 +217,30 @@ body {
   }
   
   @media(max-width:980px) {
+    .container{ color: #999;
+
+
+    }
 
   }
 
 
 
 @media (max-width: 768px){
-
-
-
-
-}
-
-
-
-
-  @media(max-width:640px){
-#masthead{ position: static};
-
-
-}
-
+  .container{ color: blue;
+  
   }
+
+}
+
+
+
+
+  @media (max-width:640px){
+    .container{ color: red;
+
+    }
+#masthead { position: static;}
+  
+  
+}
